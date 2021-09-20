@@ -3,6 +3,16 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="jarjar/jarjar.jar"/>
-	<classpathentry kind="lib" path="jarjar/minecraft_servero.jar"/>
+	<classpathentry kind="lib" path="jarjar/mysql-connector-java-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/Eclipse/workspace/Minecraft-Server-Mod/jarjar/minecraft_servero.jar" sourcepath="C:/Users/Admin/Desktop/Eclipse/workspace/Minecraft-Server-Mod/jarjar/minecraft_servero.jar">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/Eclipse/workspace/Minecraft-Server-Mod/jarjar/minecraft_server.jar" sourcepath="C:/Users/Admin/Desktop/Eclipse/workspace/Minecraft-Server-Mod/jarjar/src/minecraft_server.jar">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

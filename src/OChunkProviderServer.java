@@ -43,6 +43,7 @@ public class OChunkProviderServer implements OIChunkProvider {
         OChunk localOChunk = (OChunk) e.get(Integer.valueOf(i));
         if (localOChunk == null) {
             localOChunk = e(paramInt1, paramInt2);
+            boolean generated = localOChunk == null; // hMod - implement starlight
             if (localOChunk == null)
                 if (c == null)
                     localOChunk = b;
@@ -55,6 +56,7 @@ public class OChunkProviderServer implements OIChunkProvider {
             if (localOChunk != null) {
                 localOChunk.c();
                 localOChunk.d();
+                if (generated) localOChunk.initLighting(); // hMod - implement starlight
             }
 
             if ((!localOChunk.n) && (a(paramInt1 + 1, paramInt2 + 1)) && (a(paramInt1, paramInt2 + 1)) && (a(paramInt1 + 1, paramInt2)))
